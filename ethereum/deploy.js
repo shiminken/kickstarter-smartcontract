@@ -3,7 +3,8 @@ const Web3 = require("web3");
 const compiledCampaign = require("./build/CampaignFactory.json");
 
 const provider = new HDWalletProvider(
-  "patient loyal consider rely muffin carbon welcome copper bitter foam exchange senior",
+  // Filling mnemonic here
+  "",
   "https://rinkeby.infura.io/v3/bbddc84a65604252a411a80a405a16a6"
 );
 const web3 = new Web3(provider);
